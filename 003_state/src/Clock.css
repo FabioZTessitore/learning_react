@@ -1,0 +1,10 @@
+.clock {
+  background-color: yellow;
+  padding: 20px;
+  text-align: center;
+}
+
+.time {
+  color: green;
+  font-weight: bold;
+}
