@@ -1,0 +1,27 @@
+.clock {
+  text-align: center;
+  padding: 10px;
+}
+
+.clock-delay {
+  color: grey;
+  font-size: 0.8em;
+}
+
+.clock-button button {
+  border-style: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.clock-button button:hover {
+  background-color: orange;
+}
+
+.clock-button-start {
+  background-color: #8fb;
+}
+
+.clock-button-stop {
+  background-color: #f77;
+}
