@@ -1,0 +1,11 @@
+.names-list {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.names-list li {
+  width: 70px;
+  overflow-x: visible;
+  margin: 0 auto;
+  text-align: left;
+}
