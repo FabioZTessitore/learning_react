@@ -9,8 +9,8 @@ class Projects extends Component {
     super(props);
     this.state = {
       projects: [
-        { id: 1, name: 'Learn React', },
-        { id: 2, name: 'Learn Node.js', },
+        { id: cuid(), name: 'Learn React', },
+        { id: cuid(), name: 'Learn Node.js', },
       ],
     };
 
