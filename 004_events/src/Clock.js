@@ -7,13 +7,10 @@ class Clock extends Component {
 
     this.toggleTimer = this.toggleTimer.bind(this);
 
-    //this.buttonLabels = [ 'Start', 'Stop'];
-
     this.delay = this.props.delay || 1000;
 
     this.state = {
       date: new Date(),
-      //labelIndex: 1,
       running: true,
     };
   }
