@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="app">
         <h1>Welcome to Clock App</h1>
-
+        <hr />
         <h2>Clock 1</h2>
         <Clock />
 
